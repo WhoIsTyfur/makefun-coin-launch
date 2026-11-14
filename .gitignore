@@ -1,0 +1,11 @@
+kit/
+CLAUDE.md
+start-clean.ps1
+*.tar.gz
+*keypair*.json
+wallet.json
+out/
+.env
+launcher/
+node_modules/
+out-launch.log
