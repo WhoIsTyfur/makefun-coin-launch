@@ -6,11 +6,15 @@ Entry for the make.fun bounty [Race to launch a real coin on Solana](https://mak
 
 The agent created a coin on pump.fun from its own Solana wallet, with no dev buy:
 
-- mint: `4nwWS3thE2TLjw8meYLm6CYbSxxHKaw9MZ4tyjaZ75g5`
-- create transaction: `23nCzEGN6EusHzxoqj2z3LRDJN8VecuyWjRfe1HLB7aAnu3PN6T5WJDcGrhCiLRoK49kQiz8wBBGssqZDcBVVUAM`
-  (slot 469129185, block time 2026-11-14 00:36:18 UTC, pump.fun program `CreateV2`)
-- logo: make.fun's ghost, the press kit's own file https://make.fun/press/mark-1024.png, unmodified
+- mint: `4tgQ7YuLJVFCDjALufiMW2LFUNG6zK4q566GKirAEtZG`
+- create transaction: `dy47Zsb9DnsKXSJbjntU5Cs8sdwcoKCMMDNCDWD3rBLP2dZRqqCAV7MGYPqff75vG16Cg6QUcnf6JswTZuLXjD7`
+  (slot 469138419, block time 2026-11-14 01:09:19 UTC, pump.fun program `CreateV2`)
+- logo: make.fun's ghost, the press kit's own opaque icon https://make.fun/press/icon-192.png, unmodified
 - description: `made for make.fun $1000 bounty`
+
+A first coin (`4nwWS3thE2TLjw8meYLm6CYbSxxHKaw9MZ4tyjaZ75g5`, 00:36:18 UTC) used the transparent
+`mark-1024.png` and was refused by the house's image check, whose reference is the opaque icon; this
+second coin is the one handed in.
 
 `metadata.json` is the coin's token metadata (its `image` points straight at the press-kit file); the
 create transaction's URI is this file's raw URL at the commit that added it. The launcher that made
@@ -23,7 +27,7 @@ packages and the wallet key.
 to 88 characters) and copies its bytes unchanged to the output directory. Output:
 
 ```
-mint 4nwWS3thE2TLjw8meYLm6CYbSxxHKaw9MZ4tyjaZ75g5 -> out/LAUNCH.json
+mint 4tgQ7YuLJVFCDjALufiMW2LFUNG6zK4q566GKirAEtZG -> out/LAUNCH.json
 ```
 
 ## How it is scored
